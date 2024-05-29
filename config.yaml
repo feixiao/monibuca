@@ -8,3 +8,8 @@ hls:
   enable: false
 monitor:
   enable: false
+
+global:
+  disableall: false # 是否禁用所有插件
+  loglang: zh # 日志语言，可选值：zh,en
+  loglevel: debug # 日志级别，可选值：debug,info,warn,error,panic,fatal
